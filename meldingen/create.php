@@ -23,13 +23,13 @@
                 <label for="type">Type</label>
                 <select name="type" id="type"> 
                     <option value=""> - Kies een type - </option>
-                    <option value="Achtbaan"></option>
-                    <option value="Draaiend"></option>
-                    <option value="Kinder"></option>
-                    <option value="Horeca"></option>
-                    <option value="Show"></option>
-                    <option value="Water"></option>
-                    <option value="Overig"></option>
+                    <option value="A">Achtbaan</option>
+                    <option value="B">Draaiend</option>
+                    <option value="C">Kinder</option>
+                    <option value="D">Horeca</option>
+                    <option value="E">Show</option>
+                    <option value="F">Water</option>
+                    <option value="G">Overig</option>
                 </select>
             </div>
             <div class="form-group">
@@ -38,7 +38,7 @@
             </div>
             <div class="form-group">
                 <label for="prioriteit">Prio:</label>
-                <input type="checkbox" name= "prioriteit" id= "prioriteit" class="form-input">
+                <input type="checkbox" name= "prioriteit" id= "prioriteit">
                 <label for="prioriteit">Melding met prioriteit</label>
             </div>
             <div class="form-group">
@@ -46,8 +46,10 @@
                 <input type="text" name="melder" id="melder" class="form-input">
             </div>
             <div class="form-group">
+                <label for="overig">Overige_info:</label>
                 <textarea name="overig" id="overig" class="form-input" rows="4"></textarea>
             </div>
+
             <input type="submit" value="Verstuur melding">
 
         </form>
